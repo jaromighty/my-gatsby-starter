@@ -1,11 +1,10 @@
 import React from "react";
-import Seo from "../components/seo";
+import AppLayout from "../components/app-layout";
 
 export default function Home() {
-  return (
-    <div>
-      <Seo title="Home" />
-      Hello World!
-    </div>
-  )
+    return (
+        <AppLayout>
+            Hello World!
+        </AppLayout>
+    )
 }
